@@ -85,3 +85,21 @@ for( let j=0;j<i;j++)
 }
 }
 
+//[4,8,3,4,3,2,1,8,4]
+//find the most frequent element in the array
+
+/* let arr2 =[4,8,3,4,3,2,1,8,4]
+for(let i=0;i<arr2.length;i++)
+{
+	
+} */
+
+//Array operation
+//push and pop
+arr3 =['a','b','d']
+console.log(arr3)
+arr3.push('e')
+console.log(arr3)
+arr3.pop()
+console.log(arr3)
+
