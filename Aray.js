@@ -103,3 +103,30 @@ console.log(arr3)
 arr3.pop()
 console.log(arr3)
 
+//reverse the array using push and pop
+//a b c d ->d c b a 
+
+/* let arr4 =['a','b','c','d']
+for(let i=0;i<arr4.length-1;i++)
+{
+	console.log(arr4.pop())
+}
+ */
+
+//JSON
+//{key:value}
+let student ={regno:'2021/ICT/01',name:'James',age:21,course:'IT',skills:['Java','c++','JS']}
+console.log(student)
+console.log("Name: "+student.name)
+
+let students =[
+{regno:'2021/ICT/01',name:'James',age:21,course:'IT'},
+{regno:'2021/ICT/02',name:'ravi',age:24,course:'IT'},
+{regno:'2021/ICT/03',name:'gaya',age:23,course:'IT'}]
+console.log(students)
+
+//Define 10 student JSON
+//store it in an array
+//find the female students
+//print the students who are following IT course
+//print the max and average GPA among the students
