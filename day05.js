@@ -4,11 +4,11 @@ const port=3001;
 //array of student JSON details
 
 let students =[
-    {regno:'2021ICT91', name:'Sathu', age:22, course:'IT', gender:'Female'},
-	{regno:'2021ICT92', name:'Rajeevni', age:22, course:'IT', gender:'Female'},
-	{regno:'2021ICT100', name:'Bavaruba', age:23, course:'IT', gender:'Female'},
-    {regno:'2021ICT101', name:'Rajeev', age:23, course:'IT', gender:'Male'},
-    {regno:'2021ICT105', name:'Manimegalai', age:23, course:'IT', gender:'Female'}
+    {regno:'2021ICT01', name:'Perera', age:22, course:'IT', gender:'Male'},
+	{regno:'2021ICT02', name:'pasindhu', age:22, course:'IT', gender:'Male'},
+	{regno:'2021ICT03', name:'punya', age:23, course:'IT', gender:'Female'},
+    {regno:'2021ICT04', name:'yasos', age:23, course:'IT', gender:'Male'},
+    {regno:'2021ICT05', name:'bandara', age:23, course:'IT', gender:'Female'}
 ];
 
 app.get('/stu', (req, res)=>{
